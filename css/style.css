@@ -154,6 +154,7 @@ li {
     width: 70px;
   }
   .section-button {
+    border: 5px solid var(--white);
     padding: 8px 48px;
   }
 }
