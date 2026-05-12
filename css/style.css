@@ -12,7 +12,7 @@
   --yellow: #ffff00;
   --btnColor: #ffd400;
   --headerBtn: #f7931e;
-  --fz25: clamp(0.875rem, 0.708rem + 0.71vw, 1.563rem);
+  --fz25: clamp(1rem, 0.863rem + 0.58vw, 1.563rem);
   --fz40: clamp(1.25rem, 0.947rem + 1.29vw, 2.5rem);
   --fz50: clamp(1.375rem, 0.95rem + 1.81vw, 3.125rem);
 }
@@ -119,14 +119,38 @@ li {
 
 .section-button::after {
   content: "➡︎";
-  margin-left: 0.15em;
+  margin-left: 0.1em;
 }
 
 .section-button:hover {
   opacity: 1;
   transform: translateY(-3px);
 }
-
+@media only screen and (max-width: 768px) {
+  .section-title {
+    max-width: 60%;
+  }
+  .section-title__icon {
+    width: 90px;
+  }
+  .section-button {
+    padding: 12px 36px;
+    box-shadow:
+      8px 12px 8px rgba(0, 0, 0, 0.2),
+      0 0 12px rgba(0, 0, 0, 0.18);
+  }
+}
+@media only screen and (max-width: 640px) {
+  .section-title {
+    max-width: 75%;
+  }
+  .section-title__icon {
+    width: 70px;
+  }
+  .section-button {
+    padding: 8px 48px;
+  }
+}
 /* =========================
  Header
 ========================= */
@@ -397,7 +421,7 @@ li {
 ========================= */
 
 .play-section {
-  padding-block: 80px;
+  padding-block: 120px;
   background-color: var(--blue);
   background-image: linear-gradient(rgba(255, 255, 255, 0.15) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.15) 1px, transparent 1px);
   background-size: 40px 40px;
@@ -463,4 +487,48 @@ li {
 .play-section__button-wrap {
   margin-top: 70px;
   text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  .play-section {
+    padding-block: 80px;
+  }
+  .play-section__lead-area {
+    gap: 20px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .play-section__lead-area {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 45px;
+  }
+  .play-section__content {
+    flex-direction: column-reverse;
+    margin-top: 45px;
+  }
+  .play-section__lead,
+  .play-section__photo {
+    width: 100%;
+  }
+
+  .play-section__board,
+  .play-section__text {
+    width: 100%;
+  }
+  .play-section__photo,
+  .play-section__board {
+    text-align: center;
+  }
+  .play-section__photo img {
+    max-width: 90%;
+  }
+  .play-section__board img {
+    max-width: 75%;
+  }
+  .play-section__text p + p {
+    margin-top: 16px;
+  }
+  .play-section__button-wrap {
+    margin-top: 45px;
+  }
 }
