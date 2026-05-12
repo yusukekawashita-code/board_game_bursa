@@ -26,6 +26,12 @@ body {
   font-weight: normal;
   line-height: 1.75;
   letter-spacing: 0.01em;
+  padding-top: 95px;
+}
+@media (max-width: 899px) {
+  body {
+    padding-top: 75px;
+  }
 }
 
 img {
@@ -156,6 +162,10 @@ li {
 ========================= */
 
 .site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
   width: 100%;
   background-color: var(--blue);
 }
@@ -329,6 +339,7 @@ li {
     z-index: 999;
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
     height: calc(100vh - 75px);
     background-color: var(--blue);
@@ -344,6 +355,7 @@ li {
     flex-direction: column;
     gap: 25px;
     text-align: center;
+    padding-bottom: 4rem;
   }
 
   .site-header__drawer-link {
@@ -373,7 +385,7 @@ li {
   .site-header__drawer-list {
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 35px;
     text-align: center;
   }
   .site-header__drawer-link {
