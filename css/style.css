@@ -164,6 +164,14 @@ li {
     padding: 8px 48px;
   }
 }
+@media only screen and (max-width: 399px) {
+  .section-button {
+    font-size: 20px;
+    border: 4px solid var(--white);
+    padding: 6px 20px;
+  }
+}
+
 /* =========================
  Header
 ========================= */
@@ -1582,5 +1590,78 @@ li {
 
   .faq-section__row img {
     width: 20px;
+  }
+}
+
+/* =========================
+ Closing Section
+========================= */
+
+.closing-section {
+  padding-block: 90px;
+  background-color: var(--white);
+  text-align: center;
+}
+
+.closing-section__lead {
+  color: var(--blue);
+  font-size: var(--fz50);
+  font-weight: 700;
+  line-height: 1.7;
+}
+
+.closing-section__text {
+  font-size: var(--fz40);
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--blue);
+  margin-top: 40px;
+}
+
+.closing-section__text span {
+  color: var(--red);
+}
+
+.closing-section__button {
+  margin-top: 60px;
+}
+
+@media only screen and (max-width: 899px) {
+  .closing-section {
+    padding-block: 64px;
+  }
+
+  .closing-section__text {
+    margin-top: 30px;
+  }
+
+  .closing-section__button {
+    margin-top: 45px;
+  }
+}
+
+@media only screen and (max-width: 499px) {
+  .closing-section {
+    padding-block: 55px;
+  }
+  .closing-section__text {
+    font-size: 20px;
+  }
+  .closing-section__text {
+    margin-top: 20px;
+  }
+
+  .closing-section__button {
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 399px) {
+  .closing-section__text {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 349px) {
+  .closing-section__text {
+    font-size: 16px;
   }
 }
