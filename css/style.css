@@ -1025,7 +1025,7 @@ li {
   overflow: hidden;
 }
 .type-section__inner {
-  max-width: 77%;
+  max-width: min(77%, 1400px);
 }
 
 .type-section__intro {
@@ -1330,4 +1330,111 @@ li {
   line-height: 2;
   color: var(--black);
   letter-spacing: 0;
+}
+@media only screen and (max-width: 1279px) {
+  .voice-section__charts {
+    justify-content: center;
+  }
+  .voice-section__chart {
+    max-width: 300px;
+  }
+  .voice-section__cards {
+    gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 899px) {
+  .voice-section {
+    padding-block: 70px;
+    background-position:
+      top right,
+      bottom left,
+      center center;
+    background-size:
+      85% auto,
+      85% auto,
+      cover;
+  }
+
+  .voice-section__title {
+    width: min(100%, 270px);
+  }
+
+  .voice-section__charts {
+    align-items: center;
+    max-width: 100%;
+    margin-top: 30px;
+  }
+
+  .voice-section__chart {
+    max-width: 200px;
+  }
+
+  .voice-section__cards {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 36px auto 0;
+  }
+
+  .voice-section__card {
+    padding: 24px 20px;
+    border-width: 3px;
+  }
+}
+
+@media only screen and (max-width: 499px) {
+  .voice-section {
+    padding-block: 60px;
+    background-size:
+      100% auto,
+      100% auto,
+      cover;
+  }
+
+  .voice-section__title {
+    width: min(100%, 180px);
+  }
+  .voice-section__charts {
+    gap: 5px;
+    margin-top: 20px;
+  }
+  .voice-section__chart {
+    width: min(100%, 250px);
+    max-width: 250px;
+  }
+
+  .voice-section__chart {
+    max-width: 130px;
+  }
+  .voice-section__cards {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 20px;
+  }
+  .voice-section__card {
+    min-height: auto;
+    padding: 12px 16px;
+  }
+  .voice-section__text {
+    font-size: 13px;
+    line-height: 1.6;
+    margin-top: 8px;
+  }
+  .voice-section__card-title {
+    margin-top: 10px;
+  }
+  .voice-section__profile {
+    border-top: 2px solid #ffd400;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+  .voice-section__profile p {
+    line-height: 1.65;
+  }
+  .voice-section__profile img {
+    width: 36px;
+    height: 36px;
+  }
+  .voice-section__stars {
+    font-size: 1rem;
+  }
 }
