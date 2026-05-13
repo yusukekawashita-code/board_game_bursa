@@ -1085,15 +1085,15 @@ li {
 }
 @media only screen and (max-width: 499px) {
   .type-section__inner {
-    padding: 0 0.5rem;
+    padding: 0 1rem;
   }
   .type-section__cards {
-    /* grid-template-columns: 1fr; */
+    grid-template-columns: 1fr;
     gap: 8px;
     margin-top: 30px;
   }
-  /* .type-section__card {
+  .type-section__card {
     max-width: 75%;
     margin: 0 auto;
-  } */
+  }
 }
