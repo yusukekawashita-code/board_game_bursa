@@ -1097,3 +1097,8 @@ li {
     margin: 0 auto;
   }
 }
+@media only screen and (max-width: 399px) {
+  .type-section__card {
+    max-width: 85%;
+  }
+}
