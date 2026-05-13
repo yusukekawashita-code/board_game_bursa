@@ -18,7 +18,7 @@
   --fz25: clamp(1rem, 0.863rem + 0.58vw, 1.563rem);
   --fz30: clamp(1.063rem, 0.865rem + 0.84vw, 1.875rem);
   --fz35: clamp(1.125rem, 0.882rem + 1.04vw, 2.125rem);
-  --fz40: clamp(1.25rem, 0.947rem + 1.29vw, 2.5rem);
+  --fz40: clamp(1.3rem, 0.947rem + 1.29vw, 2.5rem);
   --fz50: clamp(1.375rem, 0.95rem + 1.81vw, 3.125rem);
 }
 
@@ -1184,5 +1184,46 @@ li {
 @media only screen and (max-width: 399px) {
   .study-section__card {
     max-width: 95%;
+  }
+}
+
+/* =========================
+ Event Section
+========================= */
+
+.event-section {
+  padding-block: 120px;
+  background-color: #f2f2f2;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.45) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.45) 1px, transparent 1px);
+  background-size: 40px 40px;
+  background-repeat: repeat;
+  overflow: hidden;
+}
+
+.event-section__button {
+  margin-top: 90px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 899px) {
+  .event-section {
+    padding-block: 90px;
+  }
+
+  .event-section__button {
+    margin-top: 70px;
+  }
+}
+
+@media only screen and (max-width: 499px) {
+  .event-section {
+    padding-block: 60px;
+  }
+  .section-title__icon--calendar {
+    width: 75px;
+    left: 1%;
+  }
+  .event-section__button {
+    margin-top: 50px;
   }
 }
