@@ -39,7 +39,7 @@ body {
   font-family: "Yu Gothic", "游ゴシック", "YuGothic", "Hiragino Sans", "ヒラギノ角ゴシック", Meiryo, メイリオ, sans-serif;
   font-weight: bold;
   line-height: 1.75;
-  letter-spacing: 0.01em;
+  letter-spacing: 0;
   padding-top: 95px;
   color: var(--black);
 }
@@ -695,11 +695,12 @@ li {
   flex: 1;
   color: var(--black);
   font-size: var(--fz24);
-  font-weight: bold;
+  font-weight: 500;
   line-height: 1.75;
 }
 
 .about-section__text span {
+  font-weight: bold;
   color: var(--blue);
 }
 
@@ -876,7 +877,7 @@ li {
 
 .enjoy-section__lead {
   font-size: var(--fz35);
-  font-weight: bold;
+  font-weight: 500;
   line-height: 1.65;
   color: var(--black);
   white-space: nowrap;
@@ -884,6 +885,7 @@ li {
 }
 
 .enjoy-section__lead span {
+  font-weight: bold;
   color: var(--red);
 }
 
