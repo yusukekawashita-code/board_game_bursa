@@ -37,7 +37,7 @@ html {
 
 body {
   font-family: "Yu Gothic", "游ゴシック", "YuGothic", "Hiragino Sans", "ヒラギノ角ゴシック", Meiryo, メイリオ, sans-serif;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 1.75;
   letter-spacing: 0.01em;
   padding-top: 95px;
@@ -131,7 +131,7 @@ li {
   background-color: var(--btnColor);
   color: var(--blue);
   font-size: var(--fz50);
-  font-weight: 700;
+  font-weight: bold;
   line-height: 1.2;
   box-shadow:
     8px 12px 8px rgba(0, 0, 0, 0.42),
@@ -230,6 +230,7 @@ li {
 .site-header__link {
   color: var(--white);
   font-size: var(--fz25);
+  font-weight: 500;
   transition: opacity 0.3s ease;
 }
 
@@ -252,7 +253,7 @@ li {
   background-color: var(--headerBtn);
   color: var(--white);
   font-size: var(--fz25);
-  font-weight: 700;
+  font-weight: bold;
   transition:
     background-color 0.3s ease,
     transform 0.3s ease;
@@ -476,7 +477,7 @@ li {
 .play-section__lead {
   width: 45%;
   font-size: var(--fz25);
-  font-weight: 700;
+  font-weight: bold;
   color: var(--white);
 }
 
@@ -594,7 +595,7 @@ li {
 .about-section__catch {
   color: var(--black);
   font-size: var(--fz40);
-  font-weight: 700;
+  font-weight: bold;
   text-align: center;
   margin-top: 60px;
 }
@@ -619,7 +620,7 @@ li {
 }
 
 .about-section__lead strong {
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .about-section__line {
@@ -666,7 +667,7 @@ li {
 
 .about-section__feature-body p {
   font-size: var(--fz25);
-  font-weight: 700;
+  font-weight: bold;
   line-height: 1.65;
 }
 
@@ -694,7 +695,7 @@ li {
   flex: 1;
   color: var(--black);
   font-size: var(--fz24);
-  font-weight: 700;
+  font-weight: bold;
   line-height: 1.75;
 }
 
@@ -704,7 +705,7 @@ li {
 
 .about-section__bottom {
   font-size: var(--fz30);
-  font-weight: 700;
+  font-weight: bold;
   line-height: 1.83;
   color: var(--black);
   text-align: center;
@@ -868,14 +869,14 @@ li {
   border-radius: 28px;
   background-color: var(--blue);
   font-size: var(--fz35);
-  font-weight: 700;
+  font-weight: bold;
   line-height: 1.3;
   color: var(--white);
 }
 
 .enjoy-section__lead {
   font-size: var(--fz35);
-  font-weight: 700;
+  font-weight: bold;
   line-height: 1.65;
   color: var(--black);
   white-space: nowrap;
@@ -918,7 +919,7 @@ li {
 .enjoy-section__title {
   position: relative;
   font-size: var(--fz30);
-  font-weight: 700;
+  font-weight: bold;
   line-height: 1.33;
   color: var(--blue);
   padding-bottom: 4px;
@@ -936,7 +937,7 @@ li {
 
 .enjoy-section__text {
   font-size: var(--fz20);
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.75;
   color: var(--black);
   margin-top: 1rem;
@@ -1054,7 +1055,7 @@ li {
 
 .type-section__catch {
   font-size: var(--fz40);
-  font-weight: 700;
+  font-weight: bold;
   line-height: 1.45;
   color: var(--black);
 }
@@ -1157,9 +1158,9 @@ li {
 
 .study-section__title {
   font-size: var(--fz40);
-  font-weight: 700;
+  font-weight: bold;
   line-height: 1.45;
-  color: var(--yellow);
+  color: #ffd400;
 }
 
 .study-section__lead {
@@ -1202,7 +1203,7 @@ li {
 
 .study-section__card-title {
   font-size: var(--fz25);
-  font-weight: 700;
+  font-weight: bold;
   line-height: 1.6;
   color: var(--black);
   text-align: center;
@@ -1418,7 +1419,7 @@ li {
 .voice-section__card-title {
   color: var(--black);
   font-size: var(--fz20);
-  font-weight: 700;
+  font-weight: bold;
   line-height: 1.5;
   margin-top: 18px;
 }
@@ -1438,6 +1439,10 @@ li {
   padding-top: 1rem;
   border-top: 4px solid #ffd400;
   margin-top: auto;
+}
+
+.voice-section__profile span {
+  font-weight: bold;
 }
 
 .voice-section__profile img {
@@ -1582,7 +1587,7 @@ li {
   background-color: var(--blue);
   color: var(--white);
   font-size: var(--fz40);
-  font-weight: 700;
+  font-weight: bold;
   line-height: 1.5;
   text-align: center;
 }
@@ -1615,7 +1620,7 @@ li {
 .faq-section__row--question p {
   color: var(--black);
   font-size: var(--fz30);
-  font-weight: 700;
+  font-weight: bold;
   line-height: 1.5;
 }
 
@@ -1716,7 +1721,7 @@ li {
 .closing-section__lead {
   color: var(--blue);
   font-size: var(--fz50);
-  font-weight: 700;
+  font-weight: bold;
   line-height: 1.7;
 }
 
