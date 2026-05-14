@@ -37,7 +37,7 @@ html {
 
 body {
   font-family: "Yu Gothic", "游ゴシック", "YuGothic", "Hiragino Sans", "ヒラギノ角ゴシック", Meiryo, メイリオ, sans-serif;
-  font-weight: normal;
+  font-weight: 700;
   line-height: 1.75;
   letter-spacing: 0.01em;
   padding-top: 95px;
@@ -696,7 +696,6 @@ li {
   font-size: var(--fz24);
   font-weight: 700;
   line-height: 1.75;
-  letter-spacing: 0;
 }
 
 .about-section__text span {
@@ -1723,7 +1722,6 @@ li {
 
 .closing-section__text {
   font-size: var(--fz40);
-  font-weight: 500;
   line-height: 1.5;
   color: var(--blue);
   margin-top: 40px;
