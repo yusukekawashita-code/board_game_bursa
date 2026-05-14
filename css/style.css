@@ -1357,7 +1357,7 @@ li {
 
 .voice-section {
   background-color: var(--white);
-  background-image: url("../images/voice-dot-green.png"), url("../images/voice-dot-red.png"), url("../images/voice-background.png");
+  background-image: url("../images/voice-dot-green.webp"), url("../images/voice-dot-red.webp"), url("../images/voice-background.webp");
   background-position:
     top right,
     bottom left,
